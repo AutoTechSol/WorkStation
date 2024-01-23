@@ -331,9 +331,21 @@ margin: 1rem 0;
     border: 1px solid var(--secondaryColor);
     background-color: transparent;
 }
-@media screen and (max-width: 600px;)
-.main {
+
+@media screen and (max-width: 600px)
+{
+.sidebar {
     width: auto;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
     position: none;
-    background-color: var(--softpurple);
+    left: 0;
+}
+    
 }
