@@ -332,7 +332,7 @@ margin: 1rem 0;
     background-color: transparent;
 }
 @media screen and (max-width: 600px;)
-main {
+.main {
     width: auto;
     position: none;
     background-color: var(--softpurple);
