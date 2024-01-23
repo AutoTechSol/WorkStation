@@ -22,11 +22,10 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    height: -webkit-fill-available;
 }
 .sidebar{
     width: 20%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -330,32 +329,4 @@ margin: 1rem 0;
 .btn-save:hover {
     border: 1px solid var(--secondaryColor);
     background-color: transparent;
-}
-
-@media screen and (max-width: 600px)
-{
-    .sidebar {
-    width: auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: var(--primaryColor);
-    color: var(--whiteColor);
-    position: none;
-    left: 0;
-}
-    .main {
-    width: auto;
-    min-height: 100%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 2%;
-    margin-left: 20%;
-    background-color: var(--softpurple);
-    z-index: 1;
-    }
 }
